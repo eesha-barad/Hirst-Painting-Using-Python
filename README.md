@@ -29,24 +29,24 @@ Project Folder/
 
    Make sure you have the following Python modules installed:
    
-   ```bash
-   pip install colorgram.py
+      ```bash
+      pip install colorgram.py
    
-Extract Colors:
+2. **Extract Colors:**
 
-Run main.py to extract the top 30 colors from the image.
+   Run main.py to extract the top 30 colors from the image.
+   
+       ```bash
+       python main.py
 
-    ```bash
-    python main.py
+3. **Generate the Painting:**
 
-Generate the Painting:
-
-Run painting.py to create the dot painting.
-
-    ```bash
-    python painting.py
-    
-A turtle window will open and display the artwork. Click anywhere in the window to close it.
+   Run painting.py to create the dot painting.
+   
+       ```bash
+       python painting.py
+       
+   A turtle window will open and display the artwork. Click anywhere in the window to close it.
 
 ## Features
 - Extracts up to 30 colors from any given image.
